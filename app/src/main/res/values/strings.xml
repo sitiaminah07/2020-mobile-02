@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MarketplaceLayout</string>
+    <string-array name="spinner">
+        <item> Country </item>
+        <item> Indonesia </item>
+        <item> Malaysia </item>
+        <item> Singapura </item>
+    </string-array>
 </resources>

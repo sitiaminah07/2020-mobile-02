@@ -6,17 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class HalamanLogin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_halaman_login);
     }
 
     public void postLogin(View view) {
-        Intent intent = new Intent(this, HalamanLogin.class);
+        Intent intent = new Intent(this, HalamanRegister.class);
         startActivity(intent);
     }
-
 }
